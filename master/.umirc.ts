@@ -8,6 +8,7 @@ export default defineConfig({
     { path: '/', component: '@/pages/index' },
     { path: '/design', name: '主题', microApp: 'design' },
     { path: '/console', name: '开发', microApp: 'console' },
+    { path: '/data', name: '数据', microApp: 'data' },
   ],
   fastRefresh: {},
   layout: {
@@ -26,7 +27,7 @@ export default defineConfig({
         },
         {
           name: 'data',
-          entry: '//localhost:8083/data',
+          entry: '//localhost:8084/data',
         },
       ],
     },
